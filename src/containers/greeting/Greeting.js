@@ -39,14 +39,14 @@ export default function Greeting() {
               <div id="resume" className="empty-div"></div>
               <SocialMedia />
               <div className="button-greeting-div">
-                <Button text="お問い合わせ" href="#contact" />
+                <Button text="Liên hệ" href="#contact" />
                 {greeting.resumeLink && (
                   <a
                     href={greeting.resumeLink}
                     download="CV_Ngo_Duc_Anh.xlsx"
                     className="download-link-button"
                   >
-                    <Button text="職務経歴書をダウンロード" />
+                    <Button text="Tải hồ sơ năng lực" />
                   </a>
                 )}
               </div>

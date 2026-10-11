@@ -81,7 +81,7 @@ export default function StartupProject() {
               }
               id="project-resources"
             >
-              <h2>設計資料・関連資料（代表機能）</h2>
+              <h2>Tài liệu thiết kế và liên quan</h2>
               {bigProjects.documentNote && (
                 <p
                   className={

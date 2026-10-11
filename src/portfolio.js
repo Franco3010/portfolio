@@ -177,21 +177,21 @@ const bigProjects = {
   ],
   resourceLinks: [
     {
-      projectName: "LCGコイン管理システム（LOCAGO）",
+      projectName: "Hệ thống quản lý coin LCG (LOCAGO)",
       links: [
         {name: "ERD tính lãi hằng ngày", url: "https://dbdiagram.io/d/日利計算に関するテーブル-6abbbbbf5869425612ca5f6e"},
         {name: "ERD giới hạn chuyển tiền", url: "https://dbdiagram.io/d/6abbb9155869425612ca2f2b"}
       ]
     },
     {
-      projectName: "不動産仲介システム（RECBOOK）",
+      projectName: "Hệ thống môi giới bất động sản (RECBOOK)",
       links: [
         {name: "ERD chức năng thông báo và báo cáo", url: "https://dbdiagram.io/d/6abbab815869425612c943f1"},
         {name: "Tài liệu cải tiến chức năng thông báo", url: "https://docs.google.com/presentation/d/1wKKvknaEZcUi7rgSGoDZ4POWOXm0ExbL/edit?usp=sharing&ouid=116077687996630705551&rtpof=true&sd=true"}
       ]
     },
     {
-      projectName: "eSIM管理システム",
+      projectName: "Hệ thống quản lý eSIM",
       links: [
         {name: "Giải thích thiết kế cơ sở dữ liệu", url: "https://docs.google.com/document/d/1c7ophKIyPc7soRgJ9eb0EubbJ5hbFZ4oeQly4GEh4zw/edit?usp=sharing"}
       ]

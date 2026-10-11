@@ -47,22 +47,22 @@ function Header() {
         <ul className={isDark ? "dark-menu menu" : "menu"}>
           {viewProjects && (
             <li>
-              <a href="#projects">主な開発実績</a>
+              <a href="#projects">Dự án tiêu biểu</a>
             </li>
           )}
           {viewProjects && (
             <li>
-              <a href="#project-resources">設計資料</a>
+              <a href="#project-resources">Tài liệu dự án</a>
             </li>
           )}
           {viewSkills && (
             <li>
-              <a href="#skills">スキル</a>
+              <a href="#skills">Kỹ năng</a>
             </li>
           )}
           {viewExperience && (
             <li>
-              <a href="#experience">職歴</a>
+              <a href="#experience">Kinh nghiệm</a>
             </li>
           )}
           {viewOpenSource && (
@@ -72,33 +72,33 @@ function Header() {
           )}
           {viewAchievement && (
             <li>
-              <a href="#achievements">資格・実績</a>
+              <a href="#achievements">Chứng chỉ</a>
             </li>
           )}
           {viewLearningGoals && (
             <li>
-              <a href="#learning-goals">今後の学習目標</a>
+              <a href="#learning-goals">Định hướng học tập</a>
             </li>
           )}
           {viewBlog && (
             <li>
-              <a href="#blogs">ブログ</a>
+              <a href="#blogs">Bài viết</a>
             </li>
           )}
           {viewTalks && (
             <li>
-              <a href="#talks">登壇</a>
+              <a href="#talks">Thuyết trình</a>
             </li>
           )}
           {viewResume && (
             <li>
               <a href={greeting.resumeLink} download="CV_Ngo_Duc_Anh.xlsx">
-                職務経歴書をダウンロード
+                Tải hồ sơ năng lực
               </a>
             </li>
           )}
           <li>
-            <a href="#contact">連絡先</a>
+            <a href="#contact">Liên hệ</a>
           </li>
           <li>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}

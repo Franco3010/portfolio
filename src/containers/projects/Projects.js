@@ -46,7 +46,7 @@ export default function Projects() {
     return (
       <Suspense fallback={renderLoader()}>
         <div className="main" id="opensource">
-          <h1 className="project-title">Open Source Projects</h1>
+          <h1 className="project-title">Dự án mã nguồn mở</h1>
           <div className="repo-cards-div-main">
             {repo.map((v, i) => {
               if (!v) {
@@ -60,7 +60,7 @@ export default function Projects() {
             })}
           </div>
           <Button
-            text={"More Projects"}
+            text={"Xem thêm dự án"}
             className="project-button"
             href={socialMediaLinks.github}
             newTab={true}
